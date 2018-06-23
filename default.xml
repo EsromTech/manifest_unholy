@@ -8,6 +8,9 @@
   <remote  name="unholy"
            fetch="https://github.com/UnholyDevs"
            revision="o81" />
+  <remote  name="esrom"
+           fetch="https://github.com/EsromTech"
+           revision="o81" />
   <default revision="refs/tags/android-8.1.0_r33"
            remote="aosp"
            sync-c="true"
@@ -35,7 +38,7 @@
   <project path="external/skia" name="external_skia" remote="unholy" />
   <project path="external/sqlite" name="external_sqlite" remote="unholy" />
   <project path="frameworks/av" name="frameworks_av" remote="unholy" />
-  <project path="frameworks/base" name="frameworks_base" remote="unholy" />
+  <project path="frameworks/base" name="frameworks_base" remote="esrom" />
   <project path="frameworks/native" name="frameworks_native" remote="unholy" />
   <project path="frameworks/support" name="frameworks_support" remote="unholy" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="unholy" />
